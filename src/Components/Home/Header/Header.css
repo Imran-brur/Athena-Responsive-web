@@ -1,0 +1,70 @@
+.part1 h1 {
+    font-size: 60px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform:  uppercase;
+}
+.part1 h1 {
+	display: block;
+	width: fit-content;
+	font-size: 4rem;
+	position: relative;
+	color: transparent;
+	animation: text_reveal .5s ease forwards;
+	animation-delay: 1s;
+}
+.part1 h1:nth-child(1) {
+	animation-delay: 1s;
+}
+.part1 h1 span {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 0;
+	background-color: rgb(28, 172, 71);
+	animation: text_reveal_box 1s ease;
+	animation-delay: .5s;
+}
+
+.part1 h1:nth-child(1) span {
+	animation-delay: .5s;
+}
+.part p {
+	text-align: justify;
+}
+
+@media  screen and (max-width: 552px){
+  .part1 {
+      text-align: center;
+      margin-bottom: 100px;
+  }
+  .part1 p {
+      text-align: justify;
+  }
+}
+@media  screen and (max-width: 768px){
+    .part1 {
+        text-align: center;
+        margin-bottom: 100px;
+    }
+    .part1 p {
+        text-align: justify;
+    }
+  }
+  
+
+  @keyframes text_reveal_box {
+	50% {
+		width: 100%;
+		left: 0;
+	}
+	100% {
+		width: 0;
+		left: 100%;
+	}
+}
+@keyframes text_reveal {
+	100% {
+		color: rgb(45, 119, 52);
+	}
+}

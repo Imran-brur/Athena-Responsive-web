@@ -1,0 +1,76 @@
+.card1 {
+    width: 350px;
+    height: 130px;
+    border: none;
+    background-color: white;
+    color: rgb(82, 81, 81);
+    transition: .5s;
+    border-radius: 2px 80px 2px 80px;
+}
+.card1:hover {
+    transform: scale(1.05);
+    background-color: rgb(8, 231, 127);
+    color: white;
+    box-shadow: 10px 10px 15px rgb(81, 85, 83);
+}
+.card2 {
+    width: 350px;
+    height: 130px;
+    border: none;
+    background-color: white;
+    color: rgb(82, 81, 81);
+    transition: .5s;
+    border-radius: 80px 2px 80px 2px;
+}
+.card2:hover {
+    transform: scale(1.05);
+    background-color: rgb(8, 231, 127);
+    color: white;
+    box-shadow: 10px 10px 15px rgb(81, 85, 83);
+}
+.card3 {
+    width: 350px;
+    height: 130px;
+    border: none;
+    background-color: white;
+    color: rgb(82, 81, 81);
+    transition: .5s;
+    border-radius: 80px 2px 80px 2px;
+}
+.card3:hover {
+    transform: scale(1.05);
+    background-color: rgb(8, 231, 127);
+    color: white;
+    box-shadow: 10px 10px 15px rgb(81, 85, 83);
+}
+.card4 {
+    width: 350px;
+    height: 130px;
+    border: none;
+    background-color: white;
+    color: rgb(82, 81, 81);
+    transition: .5s;
+    border-radius: 2px 80px 2px 80px;
+}
+.card4:hover {
+    transform: scale(1.05);
+    background-color:rgb(8, 231, 127);
+    color: white;
+    box-shadow: 10px 10px 15px rgb(81, 85, 83);
+}
+
+
+.achieve h1{
+ color: rgb(40, 139, 73);
+}
+.achieve p{
+    text-align: justify;
+   }
+
+
+@media  screen and (max-width: 552px) {
+    .desc {
+        margin-left: 70px;
+        margin-top: 50px;
+    }
+}

@@ -1,0 +1,4 @@
+input:focus {
+    outline: none;
+    background-color: rgb(195, 196, 195);
+}

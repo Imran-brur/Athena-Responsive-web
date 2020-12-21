@@ -1,0 +1,24 @@
+
+.contact {
+    margin-left: 50px;
+}
+.contact h1{
+    color: rgb(40, 139, 73);
+}
+.contact-desc {
+    text-align: justify;
+}
+@media  screen and (max-width:552px) {
+    .contact {
+        margin-left: 0px;
+        text-align: center;
+        margin-top: 70px;
+    }
+}
+@media  screen and (max-width:768px) {
+    .contact {
+        margin-left: 0px;
+        text-align: center;
+        margin-top: 70px;
+    }
+}
